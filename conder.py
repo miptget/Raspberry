@@ -34,8 +34,6 @@ def lightNumber(decNumber):
     for i in range(8):
         GPIO.output(numbers[7-i], n[i])
 
-def num2dac(n):
-  lightNumber(n)
 
 def bsearch():
     l = 0
